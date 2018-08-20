@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Eagle Lake' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cantora One' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet"> 
+    <style>
+        
+
+        #but{
+            width:150px;
+            height: 30px;
+            text-align: center;
+            color: #FFF;
+            font-size:25px;
+            cursor:pointer;
+            background-color: #111;
+            font-family: 'Eagle Lake'
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+            }
+        #but:hover {
+    background-color:limegreen;
+    color: white;
+        }
+         select{ 
+    cursor:grab;
+     width: 50px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    height: 34px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+    -webkit-appearance: none;
+    -moz-appearance:none;
+    }
+    option{
+        background-color:whitesmoke;
+    }
+        #list{
+     font-family:'Cantora One';
+     font-size: 25px;
+     padding-left: 2em;
+    word-spacing: 4px;
+    line-height: 3;
+    
+    }
+
+        .left{
+    float:inherit;
+    color: green;
+    line-height: 1.8;
+    font-size: 200%;
+    font-family: 'Aclonica';   
+    }
+        .right{
+    float:inherit;
+    line-height: 1.8;
+    font-family: 'Caveat';
+    font-size: 22px;
+        }   
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Courgette';
+    font-size:125%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+    
+a:link {
+    color: navajowhite;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color:limegreen;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}        
+    </style>
+    <head>
+        
+    </head>
+    
+    <body>
+        <div ><span class="left">GPA CALCULATOR</span>&ensp;<span class="right">by bhanu</span></div>
+     <ul>
+  <li><a href="http://gpacalculator.ml">Home</a></li>
+  <li><a href="http://gpacalculator.ml/1styear">1st year</a></li>
+  <li><a href="http://gpacalculator.ml/2ndyear">2nd year</a></li>
+  <li><a href="http://gpacalculator.ml/3rdyear">3rd year</a></li>
+  <li><a href="http://gpacalculator.ml/4thyear">4th year</a></li>
+  <li><a href="http://gpacalculator.ml/cgpa">CGPA</a></li>
+  <li><a href="http://gpacalculator.ml/downloads">Downloads</a></li>
+        </ul>
+    <h2  style="text-align: center;font-family:'Jua';font-size:30px"> Second  year  SGPA  Calculator</h2>
+    <font size=5 style="font-family:'Cantora One' ">Please enter your grades for respective subjects and labs</font><br/>
+<p id="list">
+    SUBJECT 1   <select id="s1">
+  <h4>     
+  <option value="10">O</option>
+  <option value="9">S</option>
+  <option value="8">A</option>
+  <option value="7">B</option>
+  <option value="6">C</option>
+  <option  value="5">D</option>
+ <option  value="0">F</option></h4>
+        
+    </select>&ensp;&nbsp;&ensp;&nbsp;
+SUBJECT 2     <select id="s2">  
+  <option value="10">O</option>
+  <option value="9">S</option>
+  <option value="8">A</option>
+  <option value="7">B</option>
+  <option value="6">C</option>
+  <option  value="5">D</option>
+    <option  value="0">F</option>
+    </select> &ensp;&nbsp;&ensp;
+SUBJECT 3      <select id="s3">
+       
+  <option value="10">O</option>
+  <option value="9">S</option>
+  <option value="8">A</option>
+  <option value="7">B</option>
+  <option value="6">C</option>
+  <option  value="5">D</option>
+    <option  value="0">F</option>
+    </select><br/>
+SUBJECT 4      <select id="s4">
+       
+   <option value="10">O</option>
+  <option value="9">S</option>
+  <option value="8">A</option>
+  <option value="7">B</option>
+  <option value="6">C</option>
+  <option  value="5">D</option>
+    <option  value="0">F</option>
+    
+    </select>&ensp;&nbsp;&ensp;&nbsp;
+SUBJECT 5      <select id="s5">
+       
+  <option value="10">O</option>
+  <option value="9">S</option>
+  <option value="8">A</option>
+  <option value="7">B</option>
+  <option value="6">C</option>
+  <option  value="5">D</option>
+    <option  value="0">F</option>
+        </select>&ensp;&nbsp;&ensp;&nbsp;
+SUBJECT 6     <select id="s6">
+        
+  <option value="10">O</option>
+  <option value="9">S</option>
+  <option value="8">A</option>
+  <option value="7">B</option>
+  <option value="6">C</option>
+  <option  value="5">D</option>
+    <option  value="0">F</option>
+    </select><br/>
+LAB 1&nbsp;&nbsp;&nbsp;&nbsp;&ensp;  <select id="l1">
+       
+   <option value="10">O</option>
+  <option value="9">S</option>
+  <option value="8">A</option>
+  <option value="7">B</option>
+  <option value="6">C</option>
+  <option  value="5">D</option>
+    <option  value="0">F</option>
+        </select>&nbsp;&nbsp;&nbsp;&ensp;&nbsp;
+LAB 2     &ensp;&ensp;&ensp;<select id="l2">
+       
+   <option value="10">O</option>
+  <option value="9">S</option>
+  <option value="8">A</option>
+  <option value="7">B</option>
+  <option value="6">C</option>
+  <option  value="5">D</option>
+    <option  value="0">F</option>
+   
+    </select> &ensp;&nbsp;&ensp;&nbsp;
+
+  <br/></p>
+<div style="padding-left: 320px;font-family: 'Eagle Lake'"><button id="but"onclick="myf()">SUBMIT</button></div>
+    <p style="font-family:'Eagle Lake';font-size: 25px;float: left">Your &ensp;GPA &ensp;is &ensp;</p>
+    <h2 id="result" style="line-height:2 ">0</h2>
+    </body>
+    <script>
+    function myf(){
+      setInterval(myf,200) ;
+     var su1,su2,su3,su4,su5,su6,la1,la2,la3;
+     su1=document.getElementById("s1").value;
+        su1=Number(su1);
+     su2=document.getElementById("s2").value;
+         su2=Number(su2);
+     su3=document.getElementById("s3").value;
+         su3=Number(su3);
+     su4=document.getElementById("s4").value;
+         su4=Number(su4);
+     su5=document.getElementById("s5").value;
+         su5=Number(su5);
+     su6=document.getElementById("s6").value;
+         su6=Number(su6);
+     la1=document.getElementById("l1").value;
+         la1=Number(la1);
+     la2=document.getElementById("l2").value;
+         la2=Number(la2);
+     per=(((su1+su2+su3+su4+su5+su6)*3)+((la1+la2)*2))/22;
+     per=per.toFixed(2);
+     document.getElementById("result").innerHTML=per;
+    }
+    </script>
+    </html>    
